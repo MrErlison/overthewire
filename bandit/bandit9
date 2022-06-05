@@ -1,0 +1,4 @@
+bandit 9
+$ file data.txt
+$ strings data.txt |grep '='
+
