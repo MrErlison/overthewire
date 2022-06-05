@@ -1,0 +1,5 @@
+bandit19
+$ ls -l
+$ ./bandit20-do id
+$ ./bandit20-do cat /etc/bandit_pass/bandit20
+
