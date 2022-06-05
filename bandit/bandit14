@@ -1,0 +1,4 @@
+bandit14
+$ ls -l /etc/bandit_pass/bandit14
+$ cat /etc/bandit_pass/bandit14 | nc localhost 30000
+
