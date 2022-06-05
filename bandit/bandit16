@@ -1,0 +1,11 @@
+bandit16
+$ nmap localhost -p 31000-32000 | grep open
+$ cat /etc/bandit_pass/bandit16 | openssl s_client -connect localhost:31790 -ign_eof
+$ mkdir -p /tmp/key
+$ cd /tmp/key
+$ touch key
+$ echo private_key > key
+$ chmod 600 key
+$ ssh -i key bandit17@localhost
+$ cat /etc/bandit_pass/bandit17
+
