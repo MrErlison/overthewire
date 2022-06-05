@@ -1,0 +1,4 @@
+bandit 10
+$ file data.txt
+$ cat data.txt  | base64 -d
+
