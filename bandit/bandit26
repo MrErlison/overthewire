@@ -1,0 +1,7 @@
+bandit26
+reduce window and run
+:e /etc/bandit_pass/bandit26
+:set shell=/bin/bash
+:shell
+$ bandit27-do cat /etc/bandit_pass/bandit27
+
