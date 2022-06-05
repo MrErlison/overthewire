@@ -1,0 +1,10 @@
+bandit20
+$ ls -l
+$ ./suconnect
+$ nc -lvp 2222
+
+in another shell
+
+$ ./suconnect  2222
+<past_password>
+
