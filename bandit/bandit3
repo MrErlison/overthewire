@@ -1,0 +1,4 @@
+bandit3
+$ ls -la inhere/
+$ cat inhere/.hidden
+
