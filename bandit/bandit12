@@ -1,0 +1,24 @@
+bandit12
+$ mkdir -p /tmp/delme
+$ cp data.txt /tmp/delme
+$ cd /tmp/delme
+$ xxd -reverse data.txt > data
+$ file data
+$ cat data | gunzip
+$ file data2
+$ cat data2 | bunzip2 > data3
+$ file data3
+$ cat data3| gunzip > data4
+$ file data4
+$ tar -tvf data4
+$ file data5.bin
+$ tar -xvf data5.bin
+$ file data6.bin
+$ cat data6.bin | bunzip2 > data7
+$ file data7
+$ tar -xvf data7
+$ file data8.bin
+$ cat data8.bin | gunzip > data9
+$ file data9
+$ cat data9
+
