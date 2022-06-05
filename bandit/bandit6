@@ -1,0 +1,3 @@
+bandit6
+$ find / -user bandit7 -group bandit6 -size 33c -exec cat '{}' \; 2> /dev/null
+
