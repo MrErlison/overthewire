@@ -1,0 +1,16 @@
+bandit24
+$ mkdir -p /tmp/delme24
+$ cd /tmp/delme24/
+$ cat > key.sh <<EOF
+#!/bin/bash
+
+for i in {000..9999}
+do
+    echo $i
+    echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ $i"
+done
+EOF
+$ chmod +x key.sh
+$ ./key.sh > data.keys
+$ cat data.keys | nc localhost 30002
+
