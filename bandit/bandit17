@@ -1,0 +1,3 @@
+bandit17
+$ diff passwords.new passwords.old
+
