@@ -1,0 +1,8 @@
+bandit25
+$ ls -l
+$ ssh -i bandit26.sshkey bandit26@localhost
+$ grep bandit26 /etc/passwd
+$ cat /usr/bin/showtext
+
+reduce the window and use more command to show /etc/bandit_pass/bandit26
+
