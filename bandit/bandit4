@@ -1,0 +1,5 @@
+bandit4
+$ ls -l inhere/
+$ file inhere/*
+$ cat inhere/-file07
+
