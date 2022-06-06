@@ -1,0 +1,11 @@
+bandit31
+$ mkdir -p /tmp/deme31
+$ cd /tmp/delme31
+$ git clone ssh://bandit31-git@localhost/home/bandit31-git/repo
+$ cd repo
+$ cat README.md
+$ ls -la
+$ echo 'May I come in?' > key.txt
+$ git rm .gitignore
+$ git add .
+$ git commit -m "add"
