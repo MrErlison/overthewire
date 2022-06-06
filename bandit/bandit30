@@ -1,0 +1,9 @@
+bandit30
+$ mkdir -p /tmp/deme30
+$ cd /tmp/delme30
+$ git clone ssh://bandit30-git@localhost/home/bandit30-git/repo
+$ cd repo
+$ cat README.md
+$ git show-ref
+$ git show f17132340e8ee6c159e0a4a6bc6f80e1da3b1aea
+
