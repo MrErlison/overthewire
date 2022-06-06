@@ -1,0 +1,8 @@
+bandit28
+$ mkdir -p /tmp/deme28
+$ cd /tmp/delme28
+$ git clone ssh://bandit28-git@localhost/home/bandit28-git/repo
+$ git log
+$ git checkout c086d11a00c0648d095d04c089786efef5e01264
+$ cat README.md
+
