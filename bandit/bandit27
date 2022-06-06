@@ -1,0 +1,6 @@
+bandit27
+$ mkdir /tmp/delme27
+$ cd /tmp/delme27/
+$ git clone ssh://bandit27-git@localhost/home/bandit27-git/repo
+$ cat README
+
