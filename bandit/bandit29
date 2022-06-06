@@ -1,0 +1,9 @@
+bandit29
+$ mkdir -p /tmp/deme29
+$ cd /tmp/delme29
+$ git clone ssh://bandit29-git@localhost/home/bandit29-git/repo
+$ cat README.md
+$ git branch -a
+$ git checkout 30
+$ cat README.md
+
