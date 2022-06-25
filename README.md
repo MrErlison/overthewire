@@ -1,3 +1,5 @@
 # Over The Wire
 
-[site](https://overthewire.org/wargames/)
+- [bandit](https://overthewire.org/wargames/bandit/)
+- [natas](https://overthewire.org/wargames/natas/)
+
