@@ -1,3 +1,10 @@
 #!/bin/bash
 
-curl -u natas4:$(cat keys/quatro) --referer http://natas5.natas.labs.overthewire.org/ http://natas4.natas.labs.overthewire.org/ 2>/dev/null | grep natas5
+natas=natas4
+key=$(< keys/quatro)
+uri="http://$natas.natas.labs.overthewire.org/"
+opts="--referer http://natas5.natas.labs.overthewire.org/"
+filter=natas5
+
+curl -u $natas:$key $opts $uri 2> /dev/null | grep $filter
+

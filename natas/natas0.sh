@@ -1,3 +1,9 @@
 #!/bin/bash
 
-curl -u natas0:$(cat keys/zero) http://natas0.natas.labs.overthewire.org 2> /dev/null | grep natas1
+natas=natas0
+key=$(< keys/zero)
+uri="http://$natas.natas.labs.overthewire.org"
+opts=""
+filter=natas1
+
+curl -u $natas:$key $opts $uri 2> /dev/null | grep $filter
